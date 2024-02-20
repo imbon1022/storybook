@@ -1,0 +1,474 @@
+@import url('../res/color.css');
+
+/* mode default */
+.storybook-button-default {
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 5px 16px;
+  line-height: 1;
+}
+
+.storybook-button-default--primary {
+  color: white;
+  background-color: var(--geekBlue5);
+  border: 1px solid var(--geekBlue6);
+
+  &:hover {
+    background-color: var(--geekBlue5);
+  }
+
+  &:focus {
+    background-color: var(--geekBlue5);
+  }
+
+  &:active {
+    background-color: var(--geekBlue7);
+  }
+}
+
+.storybook-button-default--secondary {
+  color: var(--geekBlue6);
+  background-color: #FFFFFF;
+  border: 1px solid var(--geekBlue6);
+
+  &:hover {
+    color: var(--geekBlue5);
+    background-color: #FFFFFF;
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+    background-color: #FFFFFF;
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+    background-color: #FFFFFF;
+  }
+}
+
+.storybook-button-default--tertiary {
+  color: #000000E0;
+  background-color: #FFFFFF;
+  border: 1px solid #00000026;
+
+  &:hover {
+    color: var(--geekBlue5);
+    background-color: #FFFFFF;
+    border: 1px dashed #00000026;
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+    background-color: #FFFFFF;
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+    background-color: #FFFFFF;
+  }
+}
+
+.storybook-button-default--dashed {
+  color: #000000E0;
+  background-color: #FFFFFF;
+  border: 1px dashed #00000026;
+
+  &:hover {
+    color: var(--geekBlue5);
+    background-color: #FFFFFF;
+    border: 1px dashed var(--geekBlue5);
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+    background-color: #FFFFFF;
+    border: 1px dashed var(--geekBlue5);
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+    background-color: #FFFFFF;
+    border: 1px dashed var(--geekBlue7);
+  }
+}
+
+.storybook-button-default--text {
+  color: #000000E0;
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    color: var(--geekBlue5);
+    ;
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+  }
+}
+
+.storybook-button-default--medium {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.storybook-button-default--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button-default--quadrangle {
+  border-radius: 6px;
+}
+
+.storybook-button-default--round {
+  border-radius: 999px;
+}
+
+.storybook-button-default--disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  border: rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+
+  &:focus {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* mode ghost */
+.storybook-button-ghost {
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  border: 1px solid var(--geekBlue6);
+  justify-content: center;
+  font-size: 16px;
+  padding: 5px 16px;
+  line-height: 1;
+}
+
+.storybook-button-ghost--primary {
+  color: var(--geekBlue6);
+  background-color: transparent;
+  border: 1px solid var(--geekBlue6);
+
+  &:hover {
+    color: var(--geekBlue5);
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+  }
+}
+
+.storybook-button-ghost--secondary {
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+
+  &:hover {
+    color: var(--geekBlue5);
+    background-color: transparent;
+    border: 1px solid var(--geekBlue5);
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+    background-color: transparent;
+    border: 1px solid var(--geekBlue5);
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+    background-color: transparent;
+    border: 1px solid var(--geekBlue7);
+  }
+}
+
+.storybook-button-ghost--tertiary {
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    color: var(--geekBlue5);
+    background-color: transparent;
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+    background-color: transparent;
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+    background-color: transparent;
+  }
+}
+
+.storybook-button-ghost--dashed {
+  display: none;
+}
+
+.storybook-button-ghost--text {
+  display: none;
+}
+
+.storybook-button-ghost--medium {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.storybook-button-ghost--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button-ghost--quadrangle {
+  border-radius: 6px;
+}
+
+.storybook-button-ghost--round {
+  border-radius: 999px;
+}
+
+.storybook-button-ghost--disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  border: rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+
+  &:focus {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* mode danger */
+.storybook-button-danger {
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 5px 16px;
+  line-height: 1;
+}
+
+.storybook-button-danger--primary {
+  color: white;
+  background-color: var(--red5);
+  border: 1px solid var(--red5);
+
+  &:hover {
+    background-color: var(--red4);
+  }
+
+  &:focus {
+    background-color: var(--red4);
+  }
+
+  &:active {
+    background-color: var(--red7);
+  }
+}
+
+.storybook-button-danger--secondary {
+  color: var(--red5);
+  background-color: #FFFFFF;
+  border: 1px solid var(--red5);
+
+  &:hover {
+    color: var(--red4);
+    background-color: #FFFFFF;
+    border: 1px solid var(--red4);
+  }
+
+  &:focus {
+    color: var(--red4);
+    background-color: #FFFFFF;
+    border: 1px solid var(--red4);
+  }
+
+  &:active {
+    color: var(--red7);
+    background-color: #FFFFFF;
+    border: 1px solid var(--red7);
+  }
+}
+
+.storybook-button-danger--tertiary {
+  color: var(--red5);
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    color: var(--red4);
+    background-color: transparent;
+  }
+
+  &:focus {
+    color: var(--red4);
+    background-color: transparent;
+  }
+
+  &:active {
+    color: var(--red7);
+    background-color: transparent;
+  }
+}
+
+.storybook-button-danger--dashed {
+  display: none;
+}
+
+.storybook-button-danger--text {
+  display: none;
+}
+
+.storybook-button-danger--medium {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.storybook-button-danger--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button-danger--quadrangle {
+  border-radius: 6px;
+}
+
+.storybook-button-danger--round {
+  border-radius: 999px;
+}
+
+.storybook-button-danger--disabled {
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  border: rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+
+  &:focus {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    border: rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* mode link */
+.storybook-button-link {
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 5px 16px;
+  line-height: 1;
+}
+
+.storybook-button-link--primary {
+  color: var(--geekBlue6);
+  border: none;
+  background-color: transparent;
+  &:hover {
+    color: var(--geekBlue5);
+  }
+
+  &:focus {
+    color: var(--geekBlue5);
+  }
+
+  &:active {
+    color: var(--geekBlue7);
+  }
+}
+
+.storybook-button-link--secondary {
+  display: none;
+}
+
+.storybook-button-link--tertiary {
+  display: none;
+}
+
+.storybook-button-link--dashed {
+  display: none;
+}
+
+.storybook-button-link--text {
+  display: none;
+}
+
+.storybook-button-link--medium {
+  display: inline;
+}
+
+.storybook-button-link--large {
+  display: inline;
+}
+
+.storybook-button-link--quadrangle {
+  display: inline;
+}
+
+.storybook-button-link--round {
+  display: inline;
+}
+
+.storybook-button-link--disabled {
+  display: none;
+}
